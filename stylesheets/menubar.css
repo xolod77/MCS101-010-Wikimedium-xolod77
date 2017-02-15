@@ -1,0 +1,31 @@
+.menubar{
+  background: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 20px;
+
+}
+
+.menubar .logo{
+  width: 180px;
+  height: 16px;
+  background-image: url("../images/logo.svg");
+    /*растянем без потери пропоций на всю ширину*/
+  background-size: cover;
+
+}
+
+.menubar .about{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.menubar .about:hover{
+  color: rgba(0, 0, 0, 0.8);
+}
