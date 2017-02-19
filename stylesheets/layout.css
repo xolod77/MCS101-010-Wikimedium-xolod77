@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  -webkit-transition: all .25s ease-out;
   transition: all .25s ease-out;
 }
 
