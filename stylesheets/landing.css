@@ -343,3 +343,14 @@
 }
 
 }
+
+@media all and (-webkit-min-device-pixel-ratio: 2){
+
+  #mockup1{ background-image: url(../images/landing/landing-mockup-1@2x.jpg); }
+
+  #mockup2{ background-image: url(../images/landing/landing-mockup-2@2x.jpg); }
+
+  #mockup3{ background-image: url(../images/landing/landing-mockup-3@2x.jpg); }
+
+
+}
