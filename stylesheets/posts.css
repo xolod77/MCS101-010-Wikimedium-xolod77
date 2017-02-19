@@ -1,0 +1,60 @@
+.posts{
+  background-color: #fafafa;
+  padding-bottom: 40px;
+}
+
+.posts.bg{
+  background-image: url(../images/posts_mockup.png);
+  background-position: center -10px;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+.postsFeed{
+  /*opacity: .4;*/
+  box-sizing: content-box;
+  width: 740px;
+  margin: 0 auto;
+
+}
+
+nav + section a {
+    margin-top: 90px;
+}
+
+.postsFeed a {
+  display: block;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0,0,0,0.10);
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.05);
+  border-radius: 3px;
+}
+
+.postsFeed a h2{
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .8);
+  margin: 17px 0 27px 0;
+}
+
+.postsFeed figure + h2{
+  margin: 27px 0;
+}
+
+.postsFeed a p{
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: -20px;
+  color: rgba(0, 0, 0, .4);
+  margin-bottom: 10px;
+}
+
+.postsFeed figure{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
