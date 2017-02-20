@@ -16,7 +16,6 @@
   left: 0;
   z-index: 1;
   padding: 20px;
-
 }
 
 .menubar .logo{
@@ -25,7 +24,6 @@
   background-image: url("../images/logo.svg");
     /*растянем без потери пропоций на всю ширину*/
   background-size: cover;
-
 }
 
 .menubar .about{
